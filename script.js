@@ -28,7 +28,7 @@ function submitData() {
         body: JSON.stringify({
             name: this.name.toUpperCase(),
             age: Number(this.age),
-            gender: this.gender.toUpperCase( v),
+            gender: this.gender.toUpperCase(),
         })
     })
         .then(res => res.json())
