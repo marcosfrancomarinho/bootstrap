@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    width: 50%;
+    align-self: center;
+}
+td{
+    cursor: pointer;
+}
+input{
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border: 1px solid rgb(177, 174, 174);
+    border-radius: 5px;
+}
+#age::-webkit-inner-spin-button{
+    display: none;
+}
