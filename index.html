@@ -18,13 +18,13 @@
 
 <body class="container bg-light">
     <h1 class="h2 text-center m-4">Cadastro de Clientes <small class="text-secondary "> - Fluxo Engenharia </small></h1>
-    <main class="container row m-3 gap-2 ">
+    <main class="container row m-3 gap-3 ">
         <form class="bg-secondary-subtle col d-flex flex-column gap-2 p-3 rounded-1  ">
             <label for="user">Nome:</label>
             <input type="text" name="name" id="name">
             <label for="age">Idade:</label>
             <input type="number" name="age" id="age">
-            <div class="gender">
+            <div class="gender d-flex gap-5">
                 <span>
                     <label for="masc">masculino</label>
                     <input type="radio" name="gender" value="masculino" id="masc" checked>
@@ -34,8 +34,10 @@
                     <input type="radio" name="gender" value="femenino" id="femen">
                 </span>
             </div>
-            <button class="btn btn-outline-dark" type="submit">enviar</button>
-            <button class="btn btn-outline-danger " type="reset">Cancelar</button>
+            <div class="d-flex gap-2">
+                <button class="btn btn-outline-danger " type="reset">Cancelar</button>
+                <button class="btn btn-outline-dark" type="submit">enviar</button>
+            </div>
         </form>
         <table class="col table table-hover">
             <thead>
